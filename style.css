@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'CodecPro';
+    src: url('./fonts/CodecPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.name-font {
+    font-size: 115px;
+    color: #BDF347;
+    font-family: 'CodecPro', sans-serif;
+    font-weight: bold;
+}
+
+.jamil-white{
+    color: white;
+}
+
+.profile-pic {
+    width: 190px; 
+    height: auto; 
+    border-radius: 50px;
+    border-color: #BDF347;
+}
+
+.desc-font {
+    font-size: 40px;
+    color: #BDF347;
+    font-family: 'CodecPro', sans-serif;
+    font-weight: bold;
+}
+
+.greetings{
+    font-size: 50px;
+    color: white;
+    font-family: 'CodecPro', sans-serif;
+    font-weight: bold;
+}
+
+.skills-text{
+    font-size: 32px;
+    color: white;
+    font-family: 'CodecPro', sans-serif;
+    font-weight: bold;
+}
+
+.about-me{
+    background-color: white;
+}
+
+.greetings-about{
+    font-size: 50px;
+    color: white;
+    font-family: 'CodecPro', sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc-about {
+    text-align: center;
+    font-size: 28px;
+    color: #BDF347;
+    font-family: 'CodecPro', sans-serif;
+    font-weight: bold;
+    margin: 0 auto; 
+    max-width: 600px;
+}
+
+.custom-dark-overlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+
+  .custom-dark-overlay {
+    position: relative;
+  }
+
+  .custom-dark-overlay > * {
+    position: relative;
+    z-index: 2;
+  }
+
+.circle {
+    position: absolute;
+    width: 400px;        
+    height: 400px;       
+    background-color: #BDF347;  
+    border-radius: 50%;
+    left: 51%;
+    top: 15%; 
+    z-index: 1;
+  }
+
+.svg-icon-white {
+    filter: brightness(0) invert(1);
+    fill: currentColor;
+}
+
+  .carousel-item{
+    background-color: #222831;
+  }
+
+.carousel-font{
+    font-size: 40px;
+    color: #BDF347;
+    font-family: 'CodecPro', sans-serif;
+    font-weight: bold;
+}
+  
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media (max-width: 768px) {
+    body, #home, #hello, #about-me, #work {
+        background-color: #222831;
+    }
+
+
+    .circle {
+        width: 150px; 
+        height: 150px; 
+        left: 68%; 
+        top: 1%;
+        transform: translateX(-50%);
+    }
+
+    
+    .name-font, .desc-font, .greetings, .greetings-about, .desc-about {
+        font-size: 30px;
+    }
+
+    
+    .text, .container-about, #custom-cards {
+        text-align: center;
+    }
+
+    
+    .profile-pic {
+        width: 100px; 
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    body, #home, #hello, #about-me, #work {
+        background-color: #222831;
+    }
+
+
+    .circle {
+        width: 150px; 
+        height: 150px; 
+        left: 59%; 
+        top: 6%;
+        transform: translateX(-50%);
+    }
+
+    
+    .name-font, .desc-font, .greetings, .greetings-about, .desc-about {
+        font-size: 30px;
+    }
+
+    
+    .text, .container-about, #custom-cards {
+        text-align: center;
+    }
+
+    
+    .profile-pic {
+        width: 100px; 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
